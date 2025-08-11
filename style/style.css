@@ -232,5 +232,8 @@ footer a {
   footer h5 {
     font-size: 16px;
   }
+  .carousel .overlay h3 {
+    font-size: 24px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
