@@ -1,0 +1,210 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: pragmatica, sans-serif;
+
+}
+
+:root{
+    --primary-color : #1470af ;
+}
+nav {
+    .btn {
+        background-color: black;
+        color: aliceblue;
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    box-shadow: 10px 5px 11px 1px #c7c7c7;
+    .active {
+        display: inline-block;
+    }
+    .active::after{
+        content: "";
+        display: block;
+        width: auto;
+        height: 2px;
+        background-color: #3b88bc;
+    }
+  i{
+        color: rgb(54, 122, 218);
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    p , li a{
+        color: #3b88bc !important;
+    }
+    a{
+        font-weight: 700 !important;
+    }
+    p{
+        margin-top: 20px;
+    }
+}
+.btn-close {
+    left: auto !important ;
+    right: 0px;
+}
+#carouselExampleSlidesOnly {
+   .carousel-item  video , .carousel-item  img {
+    max-height: 665px;
+    min-height: 400px;
+  }
+    .overlay {
+        background-color: #12000032;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        top: 0px;
+        z-index: 99999;
+        h3 {
+            font-size: 10vh;
+            color: white;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+
+}
+.custom-shape-divider-bottom-1754913357 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9999999999;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1754913357 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 105px;
+}
+
+.custom-shape-divider-bottom-1754913357 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.about {
+    p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .Services_link {
+   
+       border: 1px solid var(--primary-color);
+       padding: 24px ;
+       margin: 50px auto ;
+       display:block;
+       width: 50%;
+      min-width: 270px;
+      color: var(--primary-color);
+      font-weight: 700;
+    }
+    .Services_link:hover {
+        background-color: var(--primary-color);
+        color: white;
+    }
+   h3 {
+    font-weight: 700;
+   }
+    h2{
+        color: var(--primary-color);
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 7vh;
+    }
+    .d-flex{
+        text-align: justify;
+    }
+    .row {
+        img{
+            height: 235px;
+        }
+        p{
+            text-align: center;
+            font-size: 12px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+    }
+}
+.team {
+    .rounded-circle{
+        overflow: hidden;
+        width: 250px;
+        height: 250px;
+        img{
+            width: 100%;
+            height: 100%;
+            
+        }
+    }
+    span{
+        color: black;
+        text-decoration: black;
+    }
+}
+.testimonials{
+    h2{
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 170px;
+        margin-bottom: 50px;
+        font-weight: 700;
+       font-size: 49px;        
+    }
+    h3{
+        font-weight: 700;
+        text-align: justify;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+    span{
+        font-size: 12px;
+    }
+}
+footer{
+    background-color: #eaeaee;
+    padding:  40px 0px;
+    margin-top: 50px;
+    h5 , h6 {
+        text-transform: uppercase;
+        color: var(--primary-color);
+        font-weight: 700;
+    }
+    h5{
+        font-size: 6vh;
+        margin-top: 30px;
+    }
+    h6 {
+        font-size: 2.5vh;
+        margin-bottom: 15px;
+         margin-top: 50px;
+
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        width: auto;
+        font-size: 14px;
+        
+    }
+}
+
+@media only screen and (max-width: 800px) {
+footer {
+    h5 {
+        font-size: 16px;
+    }
+}
+}
